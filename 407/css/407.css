@@ -1,0 +1,78 @@
+.type-407 .container h2 {
+  font-family: UTM Isadora;
+  padding: 0px;
+  color: grey;
+  font-style: italic;
+}
+.type-407 .temperatur {
+  color: #CA212A;
+  font-weight: bold;
+  padding: 3px 3px 0 0;
+  display: inline-block;
+  white-space: nowrap;
+}
+.type-407 a {
+  color: black;
+  font-size: 15px;
+}
+.type-407 .post-meta {
+  line-height: 12px;
+  font-style: italic;
+  color: #999;
+}
+.type-407 .post-meta .a {
+  margin-left: 50px;
+}
+.type-407 .post-meta li {
+  list-style: none;
+}
+.type-407 .post-meta .dropdown-menu {
+  float: none;
+}
+.type-407 .fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-top: 10px;
+}
+.type-407 .simple_price_count {
+  font-weight: normal;
+  color: green;
+  margin-left: 8px;
+}
+.type-407 .simple_price_count del {
+  color: #ccc;
+  font-size: 80%;
+}
+.type-407 h3 {
+  font-size: 18px;
+}
+.type-407 h3 a:hover {
+  text-decoration: none;
+}
+.type-407 .nav-tabs {
+  border-bottom: none;
+}
+.type-407 .nav-tabs li a {
+  color: black;
+  font-weight: bold;
+  padding-left: 140px;
+  padding-right: 150px;
+  border-right: 1px solid #ccc;
+  background-color: #f4f4f4;
+  margin-right: 0px;
+  font-size: 14px;
+}
+.type-407 .nav-tabs li a:hover {
+  background-color: black;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .type-407 .tab {
+    padding-left: 110px;
+    padding-right: 140px;
+  }
+}
