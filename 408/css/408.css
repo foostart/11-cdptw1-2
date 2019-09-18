@@ -1,4 +1,42 @@
-@media (min-width: 992px) {
+.type-567 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.type-567 .ul.li {
+  position: relative;
+}
+@media (min-width: 320px) {
+  .type-567 {
+    width: 100%;
+  }
+}
+@media (min-width: 480px) {
+  .type-567 {
+    width: 100%;
+  }
+}
+@media (min-width: 600px) {
+  .type-567 {
+    width: 100%;
+  }
+}
+@media (min-width: 800px) {
+  .type-567 {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .type-567 {
+    width: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .type-567 {
+    width: 100%;
+  }
+}
+@media (min-width: 1025px) {
   .type-567 {
     width: 100%;
   }
@@ -29,8 +67,12 @@
   color: #999;
   text-decoration: none;
 }
+.type-567 .comment- {
+  padding-left: 15px;
+  text-align: center;
+}
 .type-567 .comment- button {
-  margin-left: 95px;
+  margin-left: -15px;
   margin-bottom: 10px;
 }
 .type-567 .related_articles {
@@ -71,16 +113,15 @@
   font: inherit;
   vertical-align: baseline;
   list-style: none;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-  -webkit-padding-start: 40px;
   display: block;
 }
 .type-567 .related_articles ul {
   overflow: hidden;
   margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .type-567 li {
   display: list-item;
@@ -195,8 +236,8 @@
   margin-right: 5px;
 }
 .type-567 h3 {
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
+  -webkit-margin-before: 0.5em;
+  -webkit-margin-after: 0.5em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
   border: 0;
@@ -205,8 +246,8 @@
 }
 .type-567 p {
   display: block;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
+  -webkit-margin-before: 0.5em;
+  -webkit-margin-after: 0.5em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
   border: 0;
@@ -265,4 +306,43 @@
   color: #999;
   text-decoration: none;
   margin: 40px 0 0 67px;
+}
+.type-567 * {
+  margin: 0;
+  padding: 0;
+}
+.type-567 .rate {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+}
+.type-567 .rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.type-567 .rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+}
+.type-567 .rate:not(:checked) > label:before {
+  content: '★ ';
+}
+.type-567 .rate > input:checked ~ label {
+  color: #ffc700;
+}
+.type-567 .rate:not(:checked) > label:hover,
+.type-567 .rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+.type-567 .rate > input:checked + label:hover,
+.type-567 .rate > input:checked + label:hover ~ label,
+.type-567 .rate > input:checked ~ label:hover,
+.type-567 .rate > input:checked ~ label:hover ~ label,
+.type-567 .rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
 }
