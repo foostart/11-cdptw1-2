@@ -1,3 +1,17 @@
+.type-572 {
+  @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+}
+.type-572 .navbar-inverse {
+  background-color: #2961ae;
+  border-color: #2961ae;
+  margin-top: 2px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.type-572 .fa-search:before {
+  content: "\f002";
+  color: cadetblue;
+}
 .type-572 .search-form {
   float: right;
   border: none;
@@ -12,7 +26,7 @@
 .type-572 .search-form input {
   background: white;
   outline: 0;
-  color: #000;
+  color: black;
   height: 40px;
   border: 1px solid transparent;
   padding: 0;
@@ -29,7 +43,7 @@
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
-  color: #fff;
+  color: #2961ae;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -37,8 +51,8 @@
 .type-572 .caret-up {
   width: 0;
   height: 0;
-  border-left: 4px solid rgba(0,0,0,0);
-  border-right: 4px solid rgba(0,0,0,0);
+  border-left: 4px solid #2961ae;
+  border-right: 4px solid #2961ae;
   border-bottom: 4px solid;
   display: inline-block;
   margin-left: 2px;
@@ -63,7 +77,7 @@
   text-transform: none;
   font-size: 15px;
   line-height: 16px;
-  color: #111 !important;
+  color: #2961ae !important;
   font-weight: 400;
 }
 .type-572 .navbar-default .navbar-nav li a {
@@ -78,7 +92,7 @@
 .type-572 .navbar-default .navbar-nav > li > a:hover {
   border-top: 4px solid #fa9e19;
   box-sizing: border-box;
-  color: #555;
+  color: #865db4;
   background-color: transparent;
   color: white;
   padding-top: 11px;
@@ -86,7 +100,7 @@
 .type-572 .navbar-default .navbar-nav > .open > a:hover {
   border-top: 4px solid #fa9e19;
   box-sizing: border-box;
-  color: #555;
+  color: #865db4;
   background-color: transparent;
   color: white;
   padding-top: 11px;
@@ -164,4 +178,60 @@
   .type-572 .searchscroll input {
     max-width: 150px;
   }
+}
+.type-572 .collapse navbar-collapse {
+  overflow: hidden;
+}
+.type-572 body {
+  font-family: 'Open Sans', 'sans-serif';
+}
+.type-572 .mega-dropdown {
+  position: static !important;
+}
+.type-572 .mega-dropdown-menu {
+  padding: 20px 0px;
+  width: 100%;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  text-decoration: none;
+}
+.type-572 .mega-dropdown-menu > ul > li {
+  padding: 0;
+  margin: 0;
+}
+.type-572 .mega-dropdown-menu > ul > li > a {
+  list-style: none;
+}
+.type-572 .mega-dropdown-menu > ul > li > a {
+  display: block;
+  color: #2961ae;
+  padding: 3px 5px;
+}
+.type-572 .mega-dropdown-menu > ul> li > a:hover,
+.type-572 .mega-dropdown-menu > ul li > a:focus {
+  text-decoration: none;
+}
+.type-572 .mega-dropdown-menu .dropdown-header {
+  font-size: 18px;
+  color: #ff3546;
+  padding: 5px 60px 5px 5px;
+  line-height: 30px;
+}
+.type-572 .carousel-control {
+  width: 30px;
+  height: 30px;
+  top: -35px;
+}
+.type-572 .left.carousel-control {
+  right: 30px;
+  left: inherit;
+}
+.type-572 .carousel-control .glyphicon-chevron-left,
+.type-572 .carousel-control .glyphicon-chevron-right {
+  font-size: 12px;
+  background-color: #fff;
+  line-height: 30px;
+  text-shadow: none;
+  color: #333;
+  border: 1px solid #ddd;
 }

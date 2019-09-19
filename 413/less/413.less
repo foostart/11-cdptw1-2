@@ -2,9 +2,20 @@
 
     @color_DDD: #DDD;
     @color_fa9e19: #fa9e19;
-    @color_555: #555;
+    @color_555: #865db4;
     @color_white: white;
 
+    .navbar-inverse {
+        background-color: #2961ae;
+        border-color: #2961ae;
+        margin-top: 2px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    .fa-search:before {
+        content: "\f002";
+        color: cadetblue;
+    }
     .search-form {
         float: right;
         border: none;
@@ -19,7 +30,7 @@
         input {
             background: @color_white;
             outline: 0;
-            color: #000;
+            color: black;
             height: 40px;
             border: 1px solid transparent;
             padding: 0;
@@ -36,7 +47,7 @@
             display: inline-block;
             font: normal normal normal 14px/1 FontAwesome;
             font-size: inherit;
-            color: #fff;
+            color: #2961ae;
             text-rendering: auto;
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
@@ -45,8 +56,8 @@
     .caret-up {
         width: 0; 
         height: 0; 
-        border-left: 4px solid rgba(0, 0, 0, 0);
-        border-right: 4px solid rgba(0, 0, 0, 0);
+        border-left: 4px solid #2961ae;
+        border-right: 4px solid #2961ae;
         border-bottom: 4px solid;
         display: inline-block;
         margin-left: 2px;
@@ -68,7 +79,7 @@
                             text-transform: none;
                             font-size: 15px;
                             line-height: 16px;
-                            color: #111 !important;
+                            color: #2961ae !important;
                             font-weight: 400;
                         }
                     }
@@ -185,6 +196,65 @@
             input{max-width:150px;}
 
         }
+    }
+    .collapse navbar-collapse {
+        overflow: hidden;
+    }
+    @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+    body {
+    font-family: 'Open Sans', 'sans-serif';
+    }
+    .mega-dropdown {
+    position: static !important;
+    }
+    .mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    text-decoration: none;
+    }
+    .mega-dropdown-menu > ul > li {
+    padding: 0;
+    margin: 0;
+    }
+    .mega-dropdown-menu > ul > li > a {
+    list-style: none;
+    }
+    .mega-dropdown-menu > ul > li > a {
+    display: block;
+    color: #2961ae;
+    padding: 3px 5px;
+    }
+    .mega-dropdown-menu > ul> li > a:hover,
+    .mega-dropdown-menu > ul li > a:focus {
+    text-decoration: none;
+    }
+    .mega-dropdown-menu .dropdown-header {
+    font-size: 18px;
+    color: #ff3546;
+    padding: 5px 60px 5px 5px;
+    line-height: 30px;
+    }
+
+    .carousel-control {
+    width: 30px;
+    height: 30px;
+    top: -35px;
+
+    }
+    .left.carousel-control {
+    right: 30px;
+    left: inherit;
+    }
+    .carousel-control .glyphicon-chevron-left, 
+    .carousel-control .glyphicon-chevron-right {
+    font-size: 12px;
+    background-color: #fff;
+    line-height: 30px;
+    text-shadow: none;
+    color: #333;
+    border: 1px solid #ddd;
     }
 }
 

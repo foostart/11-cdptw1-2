@@ -7,37 +7,41 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <section class="type-572">
-    <nav class="navbar navbar-default" role="navigation">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only"> Toggle navigation</span>
-                <span class="icon-bar"> </span>
-                <span class="icon-bar" ></span>
-                <span class="icon-bar"></span >
-            </button>
-            <a class="navbar-brand" href="#"> </a >
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" >
-            <ul class="nav navbar-nav">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">LAYOUT EXAMPLES <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">List Home Page</a></li>
-                        <li><a href="#">Gird Home Page</a></li>
-                        <li><a href="#">Full Width Example</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">STORE PAGE</a></li>
-                <li><a href="#">GREEN FOOD</a></li>
-                <li><a href="#">BABY</a></li>
-                <li><a href="#">BODY</a></li>
-                <li><a href="#">FACE</a></li>
-                <li><a href="#">ORAL CARE</a></li>
-                <li><a href="#">YOUR FAVORITES</a></li>
-            </ul>
-            <div class="searchscroll search-form">
+        <!--Text----Text----Text----Text----Text----Text----Text----Text----Text----Text----Text----Text----Text-->
+  <nav class="navbar navbar-inverse">
+    <div class="navbar-header">
+    	<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+	</div>
+	
+	<div class="collapse navbar-collapse js-navbar-collapse">
+		<ul class="nav navbar-nav">
+			<li class="dropdown mega-dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">LAUOUT EXAMPLES <span class="caret"></span></a>				
+				<ul class="dropdown-menu mega-dropdown-menu">
+					<li class="col-sm-12">
+						<ul>
+							<li><a href="#">List Home Page</a></li>
+                            <li><a href="#">Gird Home page</a></li>
+                            <li><a href="#">Full Width Example</a></li>
+						</ul>
+					</li>
+				</ul>				
+			</li>
+            <li><a href="#">STORE LOCATION</a></li>
+            <li><a href="#">GREEN FOOD</a></li>
+            <li><a href="#">BABY</a></li>
+            <li><a href="#">BODY</a></li>
+            <li><a href="#">FACE</a></li>
+            <li><a href="#">ORAL CARE</a></li>
+            <li><a href="#">YOUR FAVORITES</a></li>
+		</ul>
+        <ul class="nav navbar-nav navbar-right">
+        <div class="searchscroll search-form">
                 <form method="post" action="#">
                     <div class="input-d">
                         <input type="text" name="tk" placeholder="Search...">
@@ -47,7 +51,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </button>
                 </form>
             </div>
-        </div>
-        <!-- /.navbar-collapse -->
-    </nav>
+      </ul>
+	</div><!-- /.nav-collapse -->
+  </nav>
 </section>
