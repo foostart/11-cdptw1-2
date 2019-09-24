@@ -3,6 +3,24 @@
   align-items: center;
   justify-content: center;
 }
+.type-567 input[type=text],
+.type-567 select {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.type-567 .eee {
+  border: 1px solid #ceb1b1;
+  box-shadow: #694f4f;
+  margin-bottom: 150px;
+  margin-right: 15px;
+}
+.type-567 .qwe {
+  padding-left: 509px;
+}
 .type-567 .ul.li {
   position: relative;
 }
@@ -73,7 +91,7 @@
 }
 .type-567 .comment- button {
   margin-left: -15px;
-  margin-bottom: 10px;
+  margin-bottom: 100px;
 }
 .type-567 .related_articles {
   padding: 20px;

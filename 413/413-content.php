@@ -23,13 +23,13 @@ $url_path = str_replace('\\', '/', $url_path);
 			<li class="dropdown mega-dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown">LAUOUT EXAMPLES <span class="caret"></span></a>				
 				<ul class="dropdown-menu mega-dropdown-menu">
-					<li class="col-sm-12">
+                    <div class="cucu">
 						<ul>
 							<li><a href="#">List Home Page</a></li>
                             <li><a href="#">Gird Home page</a></li>
                             <li><a href="#">Full Width Example</a></li>
-						</ul>
-					</li>
+                        </ul>
+                    </div>
 				</ul>				
 			</li>
             <li><a href="#">STORE LOCATION</a></li>

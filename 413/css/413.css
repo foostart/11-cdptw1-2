@@ -1,6 +1,21 @@
 .type-572 {
   @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 }
+.type-572 * {
+  list-style: none;
+}
+.type-572 .navbar-nav>li>.dropdown-menu {
+  margin-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom: 2px solid #d65c14;
+}
+.type-572 .navbar-inverse .navbar-nav>.open>a,
+.type-572 .navbar-inverse .navbar-nav>.open>a:focus,
+.type-572 .navbar-inverse .navbar-nav>.open>a:hover {
+  color: #fff;
+  background-color: #2961ae;
+}
 .type-572 .navbar-inverse {
   background-color: #2961ae;
   border-color: #2961ae;
@@ -26,7 +41,7 @@
 .type-572 .search-form input {
   background: white;
   outline: 0;
-  color: black;
+  color: #2961ae;
   height: 40px;
   border: 1px solid transparent;
   padding: 0;
@@ -190,10 +205,11 @@
 }
 .type-572 .mega-dropdown-menu {
   padding: 20px 0px;
-  width: 100%;
-  box-shadow: none;
-  -webkit-box-shadow: none;
+  width: 16%;
+  box-shadow: #645858;
+  -webkit-box-shadow: #645858;
   text-decoration: none;
+  border-bottom: 0.1px;
 }
 .type-572 .mega-dropdown-menu > ul > li {
   padding: 0;

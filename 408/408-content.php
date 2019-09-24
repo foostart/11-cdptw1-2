@@ -49,7 +49,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
             <div >
-                <div class="title_comments">6 Comments
+                <div class="title_comments"> Comments
                 </div>
                 <div class="cmtlist">
                     <ol class="commentlist">
@@ -81,86 +81,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </p>
                             </div>
                         </li><!-- #comment-## -->
-                        <li class="comment odd alt" >
-                            <div class="commbox">
-                                <div class="comment-author clearfix">
-                                    <a rel="nofollow" class="comment-reply-link" href="#"> Reply</a>
-                                    <img src="images/images2.jpg" alt=""/>
-                                    <div >
-                                        <span class="fn">demouser<span class="rh-user-rank-mc">Newbie
-                                            </span>
-                                        </span>
-                                            <div class="rate">
-                                            <input type="radio" id="star5" name="rate" value="5" />
-                                            <label for="star5" title="text">5 stars</label>
-                                            <input type="radio" id="star4" name="rate" value="4" />
-                                            <label for="star4" title="text">4 stars</label>
-                                            <input type="radio" id="star3" name="rate" value="3" />
-                                            <label for="star3" title="text">3 stars</label>
-                                            <input type="radio" id="star2" name="rate" value="2" />
-                                            <label for="star2" title="text">2 stars</label>
-                                            <input type="radio" id="star1" name="rate" value="1" />
-                                            <label for="star1" title="text">1 star</label>
-                                            </div>
-                                        <div><i class="fa fa-star-o"></i> 0.00</div>
-                                        <span class="time">April 11, 2016 at 12:55 pm</span>
-                                    </div>
-                                </div>
-                                <p>So pretty thing</p>
-                            </div>
-                        </li><!-- #comment-## -->
-                        <li class="comment even" >
-                            <div class="commbox">
-                                <div class="comment-author clearfix">
-                                    <a rel="nofollow" class="comment-reply-link" href="#" >Reply</a>
-                                    <img src="images/images2.jpg" alt=""/>
-                                    <div >
-                                        <span class="fn">nanetest</span>
-                                        <div class="rate">
-                                            <input type="radio" id="star5" name="rate" value="5" />
-                                            <label for="star5" title="text">5 stars</label>
-                                            <input type="radio" id="star4" name="rate" value="4" />
-                                            <label for="star4" title="text">4 stars</label>
-                                            <input type="radio" id="star3" name="rate" value="3" />
-                                            <label for="star3" title="text">3 stars</label>
-                                            <input type="radio" id="star2" name="rate" value="2" />
-                                            <label for="star2" title="text">2 stars</label>
-                                            <input type="radio" id="star1" name="rate" value="1" />
-                                            <label for="star1" title="text">1 star</label>
-                                            </div>
-                                        <span class="time">May 10, 2016 at 6:58 am</span>
-                                    </div>
-                                </div>
-                                <p>This is a test comment</p>
-                            </div>
-                        </li><!-- #comment-## -->
-                        <li class="comment even" >
-                            <div class="commbox">
-                                <div class="comment-author clearfix">
-                                    <a rel="nofollow" class="comment-reply-link" href="#">Reply</a>
-                                    <img src="images/images2.jpg" alt=""/>
-                                    <div >
-                                        <span class="fn"><a href="#">dkssud
-                                            </a>
-                                        </span>
-                                        <div class="rate">
-                                            <input type="radio" id="star5" name="rate" value="5" />
-                                            <label for="star5" title="text">5 stars</label>
-                                            <input type="radio" id="star4" name="rate" value="4" />
-                                            <label for="star4" title="text">4 stars</label>
-                                            <input type="radio" id="star3" name="rate" value="3" />
-                                            <label for="star3" title="text">3 stars</label>
-                                            <input type="radio" id="star2" name="rate" value="2" />
-                                            <label for="star2" title="text">2 stars</label>
-                                            <input type="radio" id="star1" name="rate" value="1" />
-                                            <label for="star1" title="text">1 star</label>
-                                            </div>
-                                        <span class="time">September 3, 2016 at 5:36 am</span>
-                                    </div>
-                                </div>
-                                <p>Test</p>
-                            </div>
-                        </li><!-- #comment-## -->
                     </ol>
                     <div >
                     </div>
@@ -188,7 +108,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="form-group">
                                 <label>Comment</label>
                                 <div>
-                                <textarea type="text" name="" id ="comment" placeholder ="Comment..."></textarea></div>
+                                <textarea type="text" name="" id ="comment" placeholder ="Comment..." rows="5" cols="140-auto"></textarea></div>
                         </div>
                     </form>
                     <button class="btn btn-primary">Submit Comment</button>
