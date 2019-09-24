@@ -1,4 +1,5 @@
 <?php
+
 $url_host = 'http://' . $_SERVER['HTTP_HOST'];
 $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
@@ -47,6 +48,11 @@ $url_path = str_replace('\\', '/', $url_path);
                         </li>
                     </ul>
                 </div>
+                    <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlid  e(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
             </div>
             <div >
                 <div class="title_comments"> Comments
@@ -111,6 +117,20 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <textarea type="text" name="" id ="comment" placeholder ="Comment..." rows="5" cols="140-auto"></textarea></div>
                         </div>
                     </form>
+                        <div class="aas">
+                            <div class="rate">
+                            <input type="radio" id="star6" name="rates" value="5" />
+                            <label for="star6" title="text">5 stars</label>
+                            <input type="radio" id="star7" name="rates" value="4" />
+                            <label for="star7" title="text">4 stars</label>
+                            <input type="radio" id="star8" name="rates" value="3" />
+                            <label for="star8" title="text">3 stars</label>
+                            <input type="radio" id="star9" name="rates" value="2" />
+                            <label for="star9" title="text">2 stars</label>
+                            <input type="radio" id="star10" name="rates" value="1" />
+                            <label for="star10" title="text">1 star</label>
+                            </div>
+                        </div>
                     <button class="btn btn-primary">Submit Comment</button>
                 </div>
             </div>
