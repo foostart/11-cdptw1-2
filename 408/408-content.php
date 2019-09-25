@@ -114,24 +114,28 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="form-group">
                                 <label>Comment</label>
                                 <div>
-                                <textarea type="text" name="" id ="comment" placeholder ="Comment..." rows="5" cols="140-auto"></textarea></div>
+                                <textarea type="text" name="" id ="comment" placeholder ="Comment..." rows="5" cols="146.3"></textarea></div>
                         </div>
-                    </form>
+                        <div class="form-group1">
                         <div class="aas">
                             <div class="rate">
-                            <input type="radio" id="star6" name="rates" value="5" />
+                            <input type="text" id="comment" name="rates" value="5" />
                             <label for="star6" title="text">5 stars</label>
-                            <input type="radio" id="star7" name="rates" value="4" />
+                            <input type="text" id="comment" name="rates" value="4" />
                             <label for="star7" title="text">4 stars</label>
-                            <input type="radio" id="star8" name="rates" value="3" />
+                            <input type="text" id="comment" name="rates" value="3" />
                             <label for="star8" title="text">3 stars</label>
-                            <input type="radio" id="star9" name="rates" value="2" />
+                            <input type="text" id="stcomment" name="rates" value="2" />
                             <label for="star9" title="text">2 stars</label>
-                            <input type="radio" id="star10" name="rates" value="1" />
+                            <input type="text" id="comment" name="rates" value="1" />
                             <label for="star10" title="text">1 star</label>
                             </div>
                         </div>
+                    </div>
+                    </form>
+                    <div class="lol">
                     <button class="btn btn-primary">Submit Comment</button>
+                    </div>
                 </div>
             </div>
         </div>
