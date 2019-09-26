@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>fasfa</title>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script>
+  $(document).ready(function(){
+    var a = $("#lolhoa").val();
+   
+    $("#btnSend").click(function(){
+       
+         $("#cachoa").append(a+"<br>");
+    });});
+  
+</script>
+</head>
+<body>
+
+
+<h2>HTML Forms</h2>
+
+  First name:<br>
+  <input id="lolhoa" type="text" name="firstname" value="Mickey">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="Mouse">
+  <br><br>
+  <button id="btnSend">Submit</button>
+
+
+<div id="cachoa"> </div>
+
+</body>
+</html>
