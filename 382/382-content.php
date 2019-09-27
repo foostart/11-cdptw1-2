@@ -7,10 +7,10 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<section class="type-382">
-    <div class="container">
+<section class="type-382" style="background-color : #383838;">
+    <div class="container" >
         <div class="row top-header">   
-            <nav class="navbar navbar-inverse">
+            <nav class="navbar navbar-inverse" style="background-color : #383838;" >
                 <div class="navbar-header">
                     <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
                         <span class="sr-only">Toggle navigation</span>
@@ -34,82 +34,6 @@ $url_path = str_replace('\\', '/', $url_path);
                             <ul class="dropdown-menu mega-dropdown-menu">
                                 <li class="col-md-2 col-sm-4">
                                     <div class="item">
-                                        <a href="">
-                                            <div class="img-hov"> 
-                                                <img src="<?php echo $url_path ?>/images/menu/t1.png" class="responsive" alt=""width="100%" height="100%"/>
-                                            </div> 
-                                        </a>
-                                        <a href="">
-                                            <div class="img-hov"> 
-                                                <img src="<?php echo $url_path ?>/images/menu/t1.png" class="responsive" alt=""width="100%" height="100%"/>
-                                            </div> 
-                                        </a>
-                                    </div>                                      
-                                </li>
-                                <li class="col-md-2 col-sm-4">
-                                    <div class="item">
-                                        <a href="">
-                                            <div class="img-hov"> 
-                                                <img src="<?php echo $url_path ?>/images/menu/t1.png" class="responsive" alt=""width="100%" height="100%"/>
-                                            </div> 
-                                        </a>
-                                        <a href="">
-                                            <div class="img-hov"> 
-                                                <img src="<?php echo $url_path ?>/images/menu/t1.png" class="responsive" alt=""width="100%" height="100%"/>
-                                            </div> 
-                                        </a>
-                                    </div>                                      
-                                </li>
-                                <li class="col-md-2 col-sm-4">
-                                    <div class="item">
-
-                                        <a href="">
-                                            <div class="img-hov"> 
-                                                <img src="<?php echo $url_path ?>/images/menu/t1.png" class="responsive" alt=""width="100%" height="100%"/>
-                                            </div> 
-                                        </a>
-                                        <a href="">
-                                            <div class="img-hov"> 
-                                                <img src="<?php echo $url_path ?>/images/menu/t1.png" class="responsive" alt=""width="100%" height="100%"/>
-                                            </div> 
-                                        </a>
-                                    </div>                                      
-                                </li>
-                                <li class="col-md-2 col-sm-4">
-                                    <div class="item">
-                                        <a href="">
-                                            <div class="img-hov"> 
-                                                <img src="<?php echo $url_path ?>/images/menu/t1.png" class="responsive" alt=""width="100%" height="100%"/>
-                                            </div> 
-                                        </a>
-                                        <a href="">
-                                            <div class="img-hov"> 
-                                                <img src="<?php echo $url_path ?>/images/menu/t1.png" class="responsive" alt=""width="100%" height="100%"/>
-                                            </div> 
-                                        </a>
-                                    </div>                                      
-                                </li>
-                                <li class="col-md-2 col-sm-4">
-                                    <div class="item">
-                                        <a href="">
-                                            <div class="img-hov"> 
-                                                <img src="<?php echo $url_path ?>/images/menu/t1.png" class="responsive" alt=""width="100%" height="100%"/>
-                                            </div> 
-                                        </a>
-                                        <a href="">
-                                            <div class="img-hov"> 
-                                                <img src="<?php echo $url_path ?>/images/menu/t1.png" class="responsive" alt=""width="100%" height="100%"/>
-                                            </div> 
-                                        </a>
-                                    </div>                                      
-                                </li>
-                                <li class="col-md-2 col-sm-4">
-                                    <div class="item">
-                                        <a href="">
-                                            <div class="img-hov"> 
-                                                <img src="<?php echo $url_path ?>/images/menu/t1.png" class="responsive" alt=""width="100%" height="100%"/>
-                                            </div> 
-                                        </a>
                                         <a href="">
                                             <div class="img-hov"> 
                                                 <img src="<?php echo $url_path ?>/images/menu/t1.png" class="responsive" alt=""width="100%" height="100%"/>
@@ -177,16 +101,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 <ul>
                                                     <li><a href="#">tag</a></li>
                                                     <li><a href="#">tag</a></li>
-                                                    <li><a href="#">tag</a></li>
-                                                    <li><a href="#">tag</a></li>
-                                                    <li><a href="#">tag</a></li>
-                                                    <li><a href="#">tag</a></li>
-                                                    <li><a href="#">tag</a></li>
-                                                    <li><a href="#">tag</a></li>
-                                                    <li><a href="#">tag</a></li>
-                                                    <li><a href="#">tag</a></li>
-                                                    <li><a href="#">tag</a></li>
-                                                    <li><a href="#">tag</a></li>
                                                 </ul>
                                             </div>
                                         </ul>
@@ -215,13 +129,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <li class="dropdown-header">Content</li>
                                         <li class="divider"></li>
                                         <li><a href="#">Acustic</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Hipster</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Jeans</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Men</a></li>
-                                        <li class="divider"></li>
                                     </ul>
                                 </li>
                                 <li class="col-md-3 col-sm-6">
@@ -229,13 +136,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <li class="dropdown-header">Social & Carousels</li>
                                         <li class="divider"></li>
                                         <li><a href="#">Acustic</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Hipster</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Jeans</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Men</a></li>
-                                        <li class="divider"></li>
                                     </ul>
                                 </li>
                                 <li class="col-md-3 col-sm-6">
@@ -243,13 +143,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <li class="dropdown-header">Text contents</li>
                                         <li class="divider"></li>
                                         <li><a href="#">Acustic</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Hipster</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Jeans</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Men</a></li>
-                                        <li class="divider"></li>
                                     </ul>
                                 </li>
                                 <li class="col-md-3 col-sm-6">
@@ -257,13 +150,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <li class="dropdown-header">Featured</li>
                                         <li class="divider"></li>
                                         <li><a href="#">Acustic</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Hipster</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Jeans</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Men</a></li>
-                                        <li class="divider"></li>
                                     </ul>
                                 </li>
                             </ul>				
