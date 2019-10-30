@@ -29,7 +29,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="panel-heading">
                     <div class="panel-title">
                         <p>Payment Details </p>
-                        <img class="img-responsive" src="http://<?php echo $url_path ?>/images/accepted_c22e0.png" alt="">
+                        <img  class="img-responsive" src="http://<?php echo $url_path ?>/images/accepted_c22e0.png" alt="">
                     </div>
                 </div>
                 <div class="panel-body">
@@ -44,7 +44,12 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="form-group">
                             <label>EXPIRATION DATE</label>
                             <div class="input-group">
-                                <input type="date" name="bday" class="col-md-6 form-control"  placeholder="MM" required data-stripe="exp_year" required data-stripe="exp_month" />
+                                 <div class="col-xs-6 col-lg-6 pl-ziro">
+                                     <input type="text" class="col-md-6 form-control"  placeholder="MM" required data-stripe="exp_month" />
+                                 </div>
+                                 <div class="col-xs-6 col-lg-6 pl-ziro">
+                                    <input type="text" class="col-md-6 form-control"  placeholder="YY" required data-stripe="exp_year" />
+                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
