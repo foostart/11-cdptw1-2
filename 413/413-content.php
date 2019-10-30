@@ -2,56 +2,65 @@
 $url_host = 'http://' . $_SERVER['HTTP_HOST'];
 $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+
 preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<section class="type-572">
-        <!--Text----Text----Text----Text----Text----Text----Text----Text----Text----Text----Text----Text----Text-->
-  <nav class="navbar navbar-inverse">
-    <div class="navbar-header">
-    	<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		</button>
-	</div>
-	
-	<div class="collapse navbar-collapse js-navbar-collapse">
-		<ul class="nav navbar-nav">
-			<li class="dropdown mega-dropdown">
-				<a href="#" class="dropdown-toggle" data-toggle="dropdown">LAUOUT EXAMPLES <span class="caret"></span></a>				
-				<ul class="dropdown-menu mega-dropdown-menu">
-                    <div class="cucu">
-						<ul>
-							<li><a href="#">List Home Page</a></li>
-                            <li><a href="#">Gird Home page</a></li>
-                            <li><a href="#">Full Width Example</a></li>
-                        </ul>
-                    </div>
-				</ul>				
-			</li>
-            <li><a href="#">STORE LOCATION</a></li>
-            <li><a href="#">GREEN FOOD</a></li>
-            <li><a href="#">BABY</a></li>
-            <li><a href="#">BODY</a></li>
-            <li><a href="#">FACE</a></li>
-            <li><a href="#">ORAL CARE</a></li>
-            <li><a href="#">YOUR FAVORITES</a></li>
-		</ul>
-        <ul class="nav navbar-nav navbar-right">
-        <div class="searchscroll search-form">
-                <form method="post" action="#">
-                    <div class="input-d">
-                        <input type="text" name="tk" placeholder="Search...">
-                    </div>
-                    <button type="submit" class="s-btn">
-                        <i class="fa fa-search"></i>
+<div class="type-413">
+    <!--menu-->
+
+    <div class="menu">
+        <div class="container">
+            <nav class="navbar navbar-default" role="navigation" style="background-color:#2961ae;">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                     </button>
-                </form>
-            </div>
-      </ul>
-	</div><!-- /.nav-collapse -->
-  </nav>
-</section>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Layout Exemple<span
+                                    class="caret"></span></a>
+                            <ul class="dropdown-menu "  style="border-bottom: 1px solid red;">
+                                <li style="border-bottom: 1px solid #f8f8f8;">  <a style="color:black" href="#">List Home Page</a></li>
+                                <li style="border-bottom: 1px solid #f8f8f8;"><a style="color:black" href="#">Git Home Page</a></li>
+                                <li ><a style="color:black" href="#">Full Width Exemple</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">SHOP</a></li>
+                        <li><a href="#">STORE PAGE</a></li>
+                        <li><a href="#">GREEN FOOD</a></li>
+                        <li><a href="#">BABY</a></li>
+                        <li><a href="#">BODY</a></li>
+                        <li><a href="#">FACE</a></li>
+                        <li><a href="#">ORAL CARE</a></li>
+                        <li><a href="#">YOUR FAVORIUS</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right top-right">
+
+                        <li>
+                            <form action="" class="form-search">
+                                <input type="search" class="search" placeholder="Search..." ,>
+                                <i class="fa fa-search search-button"></i>
+                            </form>
+                        </li>
+                        <li class="item-cart">
+                            <a href="#" id="opennav"></i></a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </nav>
+
+        </div>
+    </div>
+
+
+</div>

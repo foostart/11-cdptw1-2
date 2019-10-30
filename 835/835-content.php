@@ -1,20 +1,7 @@
-<?php
-$url_host = $_SERVER['HTTP_HOST'];
-
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-
-$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-
-preg_match_all($pattern_uri, __DIR__, $matches);
-
-$url_path = $url_host . $matches[1][0];
-
-$url_path = str_replace('\\', '/', $url_path);
-?>
 <div class="type-835">
   <div class="container">
     <div class="row">
-        <div class="col-md-4 col-sm-12 col-xs-12">
+        <div class="col-md-5">
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title">Billing</h3>
@@ -24,12 +11,12 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
         </div>
-        <div class="col-md-4 col-sm-12 col-xs-12">
+        <div class="col-md-5">
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <div class="panel-title">
                         <p>Payment Details </p>
-                        <img  class="img-responsive" src="http://<?php echo $url_path ?>/images/accepted_c22e0.png" alt="">
+                        <img class="img-responsive" src="images/accepted_c22e0.png" alt="">
                     </div>
                 </div>
                 <div class="panel-body">
@@ -44,12 +31,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="form-group">
                             <label>EXPIRATION DATE</label>
                             <div class="input-group">
-                                 <div class="col-xs-6 col-lg-6 pl-ziro">
-                                     <input type="text" class="col-md-6 form-control"  placeholder="MM" required data-stripe="exp_month" />
-                                 </div>
-                                 <div class="col-xs-6 col-lg-6 pl-ziro">
-                                    <input type="text" class="col-md-6 form-control"  placeholder="YY" required data-stripe="exp_year" />
-                                 </div>
+                                <input type="text" name="bday" class="form-control"  placeholder="MM" required data-stripe="exp_year" required data-stripe="exp_month" />
                             </div>
                         </div>
                         <div class="form-group">
